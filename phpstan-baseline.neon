@@ -1,0 +1,607 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Ajustes\:\:\$model_ticket\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Controllers/Ajustes.php
+
+		-
+			message: '#^Variable \$news_sucursales_nodo might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Ajustes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$almacen\.$#'
+			identifier: property.notFound
+			count: 21
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$model_configuracion\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 10
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$model_selectores\.$#'
+			identifier: property.notFound
+			count: 7
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$permiso_sucursal\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Almacen\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 41
+			path: app/Controllers/Almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Api\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Controllers/Api.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Api\:\:\$model_sistema\.$#'
+			identifier: property.notFound
+			count: 12
+			path: app/Controllers/Api.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Api\:\:\$model_unidades\.$#'
+			identifier: property.notFound
+			count: 9
+			path: app/Controllers/Api.php
+
+		-
+			message: '#^Variable \$client might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Api.php
+
+		-
+			message: '#^Variable \$update might not be defined\.$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Calendario.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes\:\:\$almacen\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes\:\:\$finanzas\.$#'
+			identifier: property.notFound
+			count: 14
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes\:\:\$model_socios\.$#'
+			identifier: property.notFound
+			count: 46
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes\:\:\$permiso_sindicato\.$#'
+			identifier: property.notFound
+			count: 11
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''state'' \(''state'', ''state''\)\.$#'
+			identifier: array.duplicateKey
+			count: 2
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Variable \$array_mat might not be defined\.$#'
+			identifier: variable.undefined
+			count: 3
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Variable \$data might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Clientes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$decode\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$finanzas\.$#'
+			identifier: property.notFound
+			count: 10
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$model_clientes\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$model_facturacion\.$#'
+			identifier: property.notFound
+			count: 31
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 7
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$model_selectores\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$permiso_sucursal\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Clientes_facturacion\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 24
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Variable \$desde might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Variable \$hasta might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Variable \$plan might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Clientes_facturacion.php
+
+		-
+			message: '#^Instantiated class App\\Models\\Model_concesionarios not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Controllers/Concesionarios.php
+
+		-
+			message: '#^Variable \$arrayItems might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Concesionarios.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Cotizaciones\:\:\$model_clientes\.$#'
+			identifier: property.notFound
+			count: 35
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Cotizaciones\:\:\$permiso_nodo\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''fecha'' \("fecha", "fecha"\)\.$#'
+			identifier: array.duplicateKey
+			count: 1
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Function get_file_info not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Variable \$array might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Variable \$return_arr might not be defined\.$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Cotizaciones.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Fiber\:\:\$model_gestion_red\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Controllers/Fiber.php
+
+		-
+			message: '#^Variable \$tmp might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Fiber.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$almacen\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$calcular\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$finanzas\.$#'
+			identifier: property.notFound
+			count: 82
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$formatos\.$#'
+			identifier: property.notFound
+			count: 8
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$letras\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$model_clientes\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$model_facturacion\.$#'
+			identifier: property.notFound
+			count: 7
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 9
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$model_selectores\.$#'
+			identifier: property.notFound
+			count: 13
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$permiso_sucursal\.$#'
+			identifier: property.notFound
+			count: 12
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Finanzas\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 26
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''\{nrecibo\}'' \("\{nrecibo\}", "\{nrecibo\}"\)\.$#'
+			identifier: array.duplicateKey
+			count: 2
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Variable \$data_almacen might not be defined\.$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Variable \$estadocss might not be defined\.$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Variable \$producto might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Formatos\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Controllers/Formatos.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Game\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 14
+			path: app/Controllers/Game.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Gestion_red\:\:\$decodificar\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Gestion_red\:\:\$model_gestion_red\.$#'
+			identifier: property.notFound
+			count: 29
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Gestion_red\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Gestion_red\:\:\$model_selectores\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Gestion_red\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 44
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Variable \$conf_etiquetas might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Variable \$inicio might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Gestion_red.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Index\:\:\$model_configuracion\.$#'
+			identifier: property.notFound
+			count: 2
+			path: app/Controllers/Index.php
+
+		-
+			message: '#^Instantiated class App\\Models\\Model_listas not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Controllers/Listas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Oxxo\:\:\$model_sms\.$#'
+			identifier: property.notFound
+			count: 13
+			path: app/Controllers/Oxxo.php
+
+		-
+			message: '#^Array has 2 duplicate keys with value ''currency'' \(''currency'', ''currency''\)\.$#'
+			identifier: array.duplicateKey
+			count: 2
+			path: app/Controllers/Oxxo.php
+
+		-
+			message: '#^Variable \$mensajesClientes might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Oxxo.php
+
+		-
+			message: '#^Variable \$numerosSms might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Oxxo.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Reportes\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Controllers/Reportes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Reportes\:\:\$permiso_sindicato\.$#'
+			identifier: property.notFound
+			count: 1
+			path: app/Controllers/Reportes.php
+
+		-
+			message: '#^Undefined variable\: \$id_socio$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Reportes.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Rutas\:\:\$model_rutas\.$#'
+			identifier: property.notFound
+			count: 5
+			path: app/Controllers/Rutas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Rutas\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 6
+			path: app/Controllers/Rutas.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Seguridad\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Seguridad.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Seguridad\:\:\$seguridad\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Seguridad.php
+
+		-
+			message: '#^Access to an undefined property App\\Controllers\\Servicios\:\:\$model_log\.$#'
+			identifier: property.notFound
+			count: 3
+			path: app/Controllers/Servicios.php
+
+		-
+			message: '#^Instantiated class App\\Models\\Model_sindicato not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: app/Controllers/Sindicatos.php
+
+		-
+			message: '#^Variable \$arrayItems might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Sindicatos.php
+
+		-
+			message: '#^Variable \$items might not be defined\.$#'
+			identifier: variable.undefined
+			count: 2
+			path: app/Controllers/Sistema.php
+
+		-
+			message: '#^Variable \$mensajesClientes might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Sms.php
+
+		-
+			message: '#^Variable \$numerosSms might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Sms.php
+
+		-
+			message: '#^Variable \$tool might not be defined\.$#'
+			identifier: variable.undefined
+			count: 3
+			path: app/Controllers/Streaming.php
+
+		-
+			message: '#^Variable \$data might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Ticket.php
+
+		-
+			message: '#^Variable \$fecha_c might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Controllers/Ticket.php
+
+		-
+			message: '#^Access to static property \$black on an unknown class App\\Libraries\\QRimage\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Libraries/Ciqrcode.php
+
+		-
+			message: '#^Access to static property \$white on an unknown class App\\Libraries\\QRimage\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Libraries/Ciqrcode.php
+
+		-
+			message: '#^Call to static method png\(\) on an unknown class App\\Libraries\\QRcode\.$#'
+			identifier: class.notFound
+			count: 2
+			path: app/Libraries/Ciqrcode.php
+
+		-
+			message: '#^Access to an undefined property App\\Libraries\\Class_seguridad\:\:\$model_configuracion\.$#'
+			identifier: property.notFound
+			count: 4
+			path: app/Libraries/Class_seguridad.php
+
+		-
+			message: '#^Variable \$modulo_padre might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Libraries/Class_seguridad.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_almacen\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 27
+			path: app/Models/Model_almacen.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_finanzas\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 83
+			path: app/Models/Model_finanzas.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_finanzas_facturacion\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 37
+			path: app/Models/Model_finanzas_facturacion.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_game\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 10
+			path: app/Models/Model_game.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_servicios\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 26
+			path: app/Models/Model_servicios.php
+
+		-
+			message: '#^Variable \$columna might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Models/Model_sms.php
+
+		-
+			message: '#^Variable \$condicion might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Models/Model_sms.php
+
+		-
+			message: '#^Variable \$tabla might not be defined\.$#'
+			identifier: variable.undefined
+			count: 1
+			path: app/Models/Model_sms.php
+
+		-
+			message: '#^Access to an undefined property App\\Models\\Model_sucursal\:\:\$db1\.$#'
+			identifier: property.notFound
+			count: 9
+			path: app/Models/Model_sucursal.php

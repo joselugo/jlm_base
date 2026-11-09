@@ -1,0 +1,23 @@
+# Análisis estático: composer phpstan  (o vendor/bin/phpstan analyse)
+# phpstan-baseline.neon registra la deuda existente; solo se reportan errores nuevos.
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 1
+    paths:
+        - app/Controllers
+        - app/Models
+        - app/Libraries
+        - app/Filters
+        - app/Entities
+        - app/DTO
+    excludePaths:
+        - app/Libraries/conekta-php-master
+        - app/Libraries/sms-gateway
+        - app/Libraries/phpqrcode.php
+    bootstrapFiles:
+        - vendor/codeigniter4/framework/system/Test/bootstrap.php
+    scanDirectories:
+        - app/Libraries/conekta-php-master
+        - app/Libraries/sms-gateway

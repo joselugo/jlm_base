@@ -1,0 +1,2 @@
+#!/bin/bash
+rdtool create /var/www/html/herramientas/grafico/ping_db_id_$id.rrd --step 60 DS:pl:GAUGE:120:0:100 DS:rtt:GAUGE:120:0:10000000 RRA:MAX:0.5:1:1500

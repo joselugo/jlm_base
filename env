@@ -1,0 +1,187 @@
+#--------------------------------------------------------------------
+# Example Environment Configuration file
+#
+# This file can be used as a starting point for your own
+# custom .env files, and contains most of the possible settings
+# available in a default install.
+#
+# By default, all of the settings are commented out. If you want
+# to override the setting, you must un-comment it by removing the '#'
+# at the beginning of the line.
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+
+# CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+
+# URL pública con barra final. Local XAMPP: http://localhost/panel-networking/
+# app.baseURL = ''
+# app.forceGlobalSecureRequests = false
+# app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# COOKIES (Config\Cookie)
+#--------------------------------------------------------------------
+
+# Dominio de las cookies (incluye el token JWT del login). Vacío = solo el host actual
+# cookie.domain = ''
+# cookie.secure = false
+# cookie.httponly = true
+
+#--------------------------------------------------------------------
+# SESSION (Config\Session; la app usa hoy $_SESSION nativa de PHP)
+#--------------------------------------------------------------------
+
+# session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
+# session.savePath = null
+
+#--------------------------------------------------------------------
+# ENCRYPTION
+#--------------------------------------------------------------------
+
+# encryption.key =
+
+#--------------------------------------------------------------------
+# LOGGER
+#--------------------------------------------------------------------
+
+# logger.threshold = 4
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+
+# Conexión principal. La usan CI4, Class_connet, los crons (cron/env.php)
+# y los scripts de shell. Única fuente de credenciales de BD.
+database.default.hostname = localhost
+database.default.port = 3306
+database.default.database = moloch
+database.default.username =
+database.default.password =
+
+# BD de la versión anterior (Mikrowisp5), usada por Model_cotizaciones
+database.version5.hostname =
+database.version5.port = 3306
+database.version5.database = Mikrowisp5
+database.version5.username =
+database.version5.password =
+
+# sql_mode de sesión (app y crons). Por defecto el de MariaDB 10.1 (producción),
+# porque hay consultas que MySQL 8 rechaza con ONLY_FULL_GROUP_BY.
+# database.sqlMode = NO_ENGINE_SUBSTITUTION
+
+# database.tests.hostname = localhost
+# database.tests.database = ci4
+# database.tests.username = root
+# database.tests.password = root
+# database.tests.DBDriver = MySQLi
+
+#--------------------------------------------------------------------
+# CONTENT SECURITY POLICY
+#--------------------------------------------------------------------
+
+# contentsecuritypolicy.reportOnly = false
+# contentsecuritypolicy.defaultSrc = 'none'
+# contentsecuritypolicy.scriptSrc = 'self'
+# contentsecuritypolicy.styleSrc = 'self'
+# contentsecuritypolicy.imageSrc = 'self'
+# contentsecuritypolicy.base_uri = null
+# contentsecuritypolicy.childSrc = null
+# contentsecuritypolicy.connectSrc = 'self'
+# contentsecuritypolicy.fontSrc = null
+# contentsecuritypolicy.formAction = null
+# contentsecuritypolicy.frameAncestors = null
+# contentsecuritypolicy.mediaSrc = null
+# contentsecuritypolicy.objectSrc = null
+# contentsecuritypolicy.pluginTypes = null
+# contentsecuritypolicy.reportURI = null
+# contentsecuritypolicy.sandbox = false
+# contentsecuritypolicy.upgradeInsecureRequests = false
+
+#--------------------------------------------------------------------
+# HONEYPOT
+#--------------------------------------------------------------------
+
+#  honeypot.hidden = 'true'
+#  honeypot.label = 'Fill This Field'
+#  honeypot.name = 'honeypot'
+#  honeypot.template = '<label>{label}</label><input type="text" name="{name}" value=""/>'
+
+#--------------------------------------------------------------------
+# INTEGRACIONES (app/Config/Integraciones.php)
+#--------------------------------------------------------------------
+
+# Conekta: llave PRIVADA de la cuenta productiva (key_...)
+integraciones.conektaPrivateKey =
+
+# SMTP para envío de cotizaciones
+integraciones.smtpHost =
+integraciones.smtpUser =
+integraciones.smtpPass =
+integraciones.smtpPort = 587
+# Nombre del remitente de las cotizaciones (el correo es smtpUser)
+integraciones.smtpFromName = Cotizaciones
+
+# Firebase Cloud Messaging (server key)
+integraciones.fcmServerKey =
+
+# Dropbox (backups)
+integraciones.dropboxKey =
+integraciones.dropboxSecret =
+integraciones.dropboxToken =
+
+# SMSGateway (API antigua por usuario/contraseña)
+integraciones.smsgatewayEmail =
+integraciones.smsgatewayPassword =
+
+# MikroTik usado por Api::uroboros
+integraciones.mikrotikHost =
+integraciones.mikrotikUser =
+integraciones.mikrotikPass =
+integraciones.mikrotikPort = 8728
+
+# CMTS (SSH) para consultar/reiniciar cable módems (Herramientas)
+integraciones.cmtsHost =
+integraciones.cmtsUser =
+integraciones.cmtsPass =
+integraciones.cmtsPort = 22
+
+#--------------------------------------------------------------------
+# JWT (por defecto rsa/private.rsa y rsa/public.rsa.pub)
+#--------------------------------------------------------------------
+
+# Generar (RSA 2048 o más; php-jwt 7 rechaza claves menores):
+#   openssl genpkey -algorithm RSA -pkeyopt rsa_keygen_bits:2048 -out rsa/private.rsa
+#   openssl rsa -in rsa/private.rsa -pubout -out rsa/public.rsa.pub
+# jwt.privateKeyPath = /ruta/fuera/del/webroot/private.rsa
+# jwt.publicKeyPath = /ruta/fuera/del/webroot/public.rsa.pub
+
+#--------------------------------------------------------------------
+# CRONS (cron/env.php y grafico/update_emisores.sh leen este mismo .env)
+#--------------------------------------------------------------------
+
+# URL base del panel donde el cron inicia sesión para obtener el token
+# (antes fija: http://app.netium.com.mx/herramientas)
+cron.panelUrl =
+cron.panelUser =
+cron.panelPassword =
+
+# Servidor Socket.IO que recibe el estado online/offline
+cron.socketUrl = http://localhost:2001
+
+#--------------------------------------------------------------------
+# SNMP (Config\Snmp): espera por intento en microsegundos y reintentos
+#--------------------------------------------------------------------
+# snmp.timeout = 1000000
+# snmp.reintentos = 1
+
+#--------------------------------------------------------------------
+# SOCKET.IO del navegador (actualización en tiempo real). Vacío = desactivado
+#--------------------------------------------------------------------
+# socket.url = https://app.ejemplo.mx:2001

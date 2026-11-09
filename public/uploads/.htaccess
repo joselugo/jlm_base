@@ -1,0 +1,23 @@
+# Carpeta de archivos subidos por usuarios: nunca ejecutar código
+Options -ExecCGI
+RemoveHandler .php .phtml .php3 .php4 .php5 .php7 .phps .phar .pht .cgi .pl .py .sh
+RemoveType .php .phtml .php3 .php4 .php5 .php7 .phps .phar .pht
+
+<IfModule mod_php5.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+
+<FilesMatch "(?i)\.(php\d?|phtml|phps|phar|pht|cgi|pl|py|sh|htaccess)$">
+    <IfModule authz_core_module>
+        Require all denied
+    </IfModule>
+    <IfModule !authz_core_module>
+        Deny from all
+    </IfModule>
+</FilesMatch>
